@@ -16,7 +16,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: liuli01/mindav
+          images: registry.us-west-1.aliyuncs.com/github_registry/mindav
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
