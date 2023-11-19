@@ -16,7 +16,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v4
         with:
-          images: 0xjerry/mindav
+          images: liuli01/mindav
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
